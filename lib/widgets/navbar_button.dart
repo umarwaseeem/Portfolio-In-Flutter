@@ -26,8 +26,8 @@ class _NavBarButtonState extends State<NavBarButton> {
   );
   final Gradient _gradientRemain = const LinearGradient(
     colors: [
-      Color.fromARGB(255, 255, 255, 255),
-      Color.fromARGB(255, 255, 255, 255),
+      Color.fromRGBO(255, 255, 255, 1),
+      Color.fromRGBO(255, 255, 255, 1),
     ],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
@@ -36,8 +36,8 @@ class _NavBarButtonState extends State<NavBarButton> {
   @override
   Widget build(BuildContext context) {
     final hoveredTransform = Matrix4.identity()
-      ..scale(1.2)
-      ..translate(4, -4, 0);
+      ..scale(1.1)
+      ..translate(-2, -2, 0);
     final transform = isHovered ? hoveredTransform : Matrix4.identity();
     return MouseRegion(
       onEnter: (event) => entered(true),

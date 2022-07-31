@@ -62,7 +62,11 @@ flutter:
   assets:
     - assets/images/iphone.png
     - assets/images/iphoneHalf.png
-  #   - images/a_dot_ham.jpeg
+    - assets/images/flutter.png
+    - assets/images/firebase.png
+    - assets/images/css.png
+    - assets/images/js.png
+    - assets/images/html.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
