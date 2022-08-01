@@ -9,3 +9,5 @@ List<Color> creativeColorGradient = [
 Color button1Color = const Color.fromRGBO(248, 255, 148, 1);
 Color button2Color = const Color.fromRGBO(255, 220, 141, 1);
 Color button3Color = const Color.fromRGBO(184, 251, 220, 1);
+
+Color aboutCardColor = const Color.fromRGBO(34, 34, 34, 1);

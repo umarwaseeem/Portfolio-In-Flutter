@@ -36,10 +36,19 @@ class Desktop extends StatelessWidget {
                   const Section(),
                   ProjectSection(
                       colorForProjectButton: button1Color, right: true),
+                  const Divider(
+                    thickness: 1,
+                  ),
                   ProjectSection(
                       colorForProjectButton: button2Color, right: false),
+                  const Divider(
+                    thickness: 1,
+                  ),
                   ProjectSection(
                       colorForProjectButton: button3Color, right: true),
+                  const Divider(
+                    thickness: 1,
+                  ),
                 ],
               ),
             ),
