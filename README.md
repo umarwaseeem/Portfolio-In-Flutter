@@ -12,3 +12,5 @@ Making a portfolio website using Flutter.
 
 <img src = "assets/screenshots/ss1.jpg" alt = "image 1" >
 
+
+Mobile version cmoing..
